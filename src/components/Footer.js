@@ -5,13 +5,13 @@ import ViberIcon from "../Icon/ViberIcon";
 
 const Footer = () => {
   return (
-    <div className="fixed  z-50 bg-zinc-300 shadow-xl h-24 justify-center flex flex-col bottom-0 w-screen px-5 ">
-      <div className="flex container justify-between">
+    <div className="fixed  z-50 bg-zinc-300 shadow-xl h-24 lg:h-28 justify-center flex flex-col bottom-0 w-screen px-5 ">
+      <div className="flex container justify-between lg:text-xl">
         <p>
           Хортицький район <br />
           міста Запоріжжя
           <br />
-          <a className="flex gap-2.5" href="tel:0665323581">
+          <a className="flex gap-2.5 items-center" href="tel:0665323581">
             <PhoneIcon />
             0665323581
           </a>

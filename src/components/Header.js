@@ -17,13 +17,13 @@ export default function Header() {
         <div className="absolute rotate-45 top-0 right-0 -z-10">
           <img className="  w-96 rotate-90 " src="/picture/tree.png" alt="" />
         </div>
-        <div className="absolute right-0 top-0 ">
-          <img
-            className="h-44"
-            src="/picture/Picsart_22-12-25_12-45-56-417.png"
-            alt=" "
-          ></img>
-        </div>
+      </div>
+      <div className="absolute right-0 top-0 ">
+        <img
+          className="h-44"
+          src="/picture/Picsart_22-12-25_12-45-56-417.png"
+          alt=" "
+        ></img>
       </div>
     </div>
   );
